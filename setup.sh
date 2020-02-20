@@ -1,0 +1,1 @@
+yarn global add ganache-cli solc

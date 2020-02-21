@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Run a sol-compile script
-        run: solcjs --bin --abi futures.sol
+      - name: Install solidity compiler
+        run: yarn global add solc
+#      - name: Run a sol-compile script
+#        run: solcjs --bin --abi futures.sol

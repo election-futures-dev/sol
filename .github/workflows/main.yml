@@ -15,5 +15,3 @@ jobs:
         run: yarn global add solc
       - name: Run a sol-compile script
         run: solcjs --bin --abi futures.sol
-      - name: Echo current dir files
-        run: ls

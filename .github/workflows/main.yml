@@ -17,7 +17,7 @@ jobs:
         run: solcjs --bin --abi futures.sol
       - name: Echo current dir files
         run: |
-          yourfilenames=`ls ./*.txt`
+          yourfilenames=`ls ./list.txt`
           for eachfile in $yourfilenames
           do
             echo $eachfile
